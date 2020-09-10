@@ -2,7 +2,6 @@ package main
 
 import (
 	"flag"
-	"laplace/core"
 	"log"
 	"math/rand"
 	"net/http"
@@ -17,7 +16,7 @@ func main() {
 	flag.Parse()
 
 	rand.Seed(time.Now().UnixNano())
-	server := core.GetHttp()
+	//server := core.GetHttp()
 
 	// if *tls {
 	// 	log.Println("Listening on TLS:", *addr)
