@@ -1,1 +1,1 @@
-web: bin/laplace
+web: bin/laplace -tls
